@@ -39,6 +39,12 @@
    ```env
    BOT_TOKEN=your_telegram_bot_token
    TELEGRAM_API_URL=https://telegram.org
+   DB_HOST=localhost
+   DB_PORT=5432
+   DB_USER=bot_user
+   DB_PASSWORD=bot_password
+   DB_NAME=tg_bot_db
+   DB_SSLMODE=disable
    ```
 3. Запустите проект из корневой директории:
    ```bash
